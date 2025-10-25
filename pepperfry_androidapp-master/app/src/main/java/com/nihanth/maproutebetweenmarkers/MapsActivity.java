@@ -90,8 +90,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         {
             urls[i] = getDirectionsUrl(latlngs.get(i), latlngs.get(i+1)) + "&key=<KEY>";
         }
-       // url=url+"&key=AIzaSyBK6C2_vlhw2pMEBrUdCfFsZ74HHB652cs";
-       // url_mod=url_mod+"&key=AIzaSyBK6C2_vlhw2pMEBrUdCfFsZ74HHB652cs";
+       // url=url+"&key=xxxxxx";
+       // url_mod=url_mod+"&key=xxx";
        Log.d("yo  ",urls[0]);
         for (LatLng point : latlngs) {
             int numm = latlngs.indexOf(point)+1;
